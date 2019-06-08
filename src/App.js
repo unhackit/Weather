@@ -47,7 +47,7 @@ class App extends React.Component {
   onSubmit = (e) => {
     console.log('yes')
     e.preventDefault();
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.city},${this.state.country}&appid=${API_KEY}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${this.state.city},${this.state.country}&appid=${API_KEY}`)
     .then(response => response.json())
     .then(response => this.assignValues(response))
   }
