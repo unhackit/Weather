@@ -20,7 +20,7 @@ const Weather = ({displayCity, displayCountry, temperature, humidity, pressure, 
 				    			<p><b>Wind:</b> {wind} km/h</p>
 				    		</div>
 				    		<div className="col-lg-12 shadow pt-2 pb-2 mb-4 rounded text-center">
-				    			<p><b>Humidity:</b> {humidity}: g/m3</p>
+				    			<p><b>Humidity:</b> {humidity} g/m3</p>
 				    		</div>
 				    		<div className="col-lg-12 shadow pt-2 pb-2 mb-4 rounded text-center">
 				    			<p><b>Pressure:</b> {pressure} pa</p>
